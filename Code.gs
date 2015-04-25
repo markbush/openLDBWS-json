@@ -1,6 +1,3 @@
-var TOKEN = 'YOUR OpenLDBWS TOKEN HERE';
-var URL = 'https://lite.realtime.nationalrail.co.uk/OpenLDBWS/ldb6.asmx';
-
 function doGet(request) {
   var query = request.parameters.q;
   var results = {'error': 'Unknown query: ' + query};

@@ -1,3 +1,6 @@
+var TOKEN = 'YOUR OpenLDBWS TOKEN HERE';
+var URL = 'https://lite.realtime.nationalrail.co.uk/OpenLDBWS/ldb6.asmx';
+
 function soap_(body, action) {
   var sr =
     '<?xml version="1.0"?>' +
