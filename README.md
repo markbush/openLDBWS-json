@@ -31,4 +31,10 @@ https://script.google.com/macros/s/YOUR-SCRIPT-ID/exec?q=service&service=rWKZWWQ
 
 Note:
 
-Some trains can have multiple origins and/or destinations because trains can split or join.  I have not seen an example of this, so the results of this application won't be able to handle those correctly.  If this is important for you and you find one of these trains, you should be able to update the code in ToJSON.gs in the same way as the "service" and "callingPoint" items.
+The following keys produce lists: service, callingPoint, location.
+
+service: this represents the list of services requested for a station
+
+callingPoint: this is the list of stations the train has called at or is due to call at
+
+location: trains can have multiple origins and destinations as they can split and join
