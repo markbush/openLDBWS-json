@@ -13,7 +13,7 @@ function xmlToJson_(element) {
       var child = children[i];
       var name = child.getName();
       var value = xmlToJson_(child);
-      if (name == 'service' || name == 'callingPoint' || name == 'location') {
+      if (name == 'service' || name == 'callingPointList' || name == 'callingPoint' || name == 'location') {
         if (typeof result[name] === "undefined") {
           result[name] = [];
         }
